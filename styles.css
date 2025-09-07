@@ -1,0 +1,112 @@
+/* Reset box model */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+  line-height: 1.5;
+  background: #fafafa;
+  color: #222;
+  padding: 1rem;
+}
+
+/* Headings */
+h1, h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* The big wrapper */
+.container {
+  max-width: 1000px;  /* keeps things from being too wide */
+  margin: 0 auto;     /* centers the container */
+  padding: 1rem;
+}
+
+/* Image scaling */
+.sleepImage {
+  max-width: 100%;  /* never bigger than container */
+  height: auto;     /* keep aspect ratio */
+  display: block;
+  margin-bottom: 2rem;
+}
+
+/* Two-column layout */
+.flex {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;   /* stack on small screens */
+}
+
+.col1 {
+  flex: 2;
+  min-width: 250px;
+}
+
+.col2 {
+  flex: 1;
+  min-width: 200px;
+}
+
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: white;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: .75rem;
+  text-align: left;
+}
+
+th {
+  background: #f0f0f0;
+}
+
+.flex2 {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;   /* stack on small screens */
+}
+
+/* Links */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 1rem;
+}
+
+.copyright {
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; /* horizontal alignment */
+    align-items: center;     /* vertical alignment */
+}
+
+.col3 {
+    padding-right: 20px;
+}
+.col4 {
+    padding-right: 20px;
+}
+.col5 {
+    padding-right: 20px;
+}
+
+
