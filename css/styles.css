@@ -39,7 +39,7 @@ h1, h2 {
   display: flex;
   gap: 2rem;
   align-items: flex-start;
-  flex-wrap: wrap;   /* stack on small screens */
+  flex-wrap: wrap;  
 }
 
 .col1 {
@@ -82,6 +82,7 @@ a {
   text-decoration: none;
 }
 
+/* hover detail */
 a:hover {
   text-decoration: underline;
 }
@@ -91,6 +92,7 @@ p {
   margin-bottom: 1rem;
 }
 
+/* all bottom items */
 .copyright {
     text-align: center;
     display: flex;
@@ -98,7 +100,6 @@ p {
     justify-content: center; /* horizontal alignment */
     align-items: center;     /* vertical alignment */
 }
-
 .col3 {
     padding-right: 20px;
 }
