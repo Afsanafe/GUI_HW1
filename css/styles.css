@@ -93,7 +93,7 @@ p {
 }
 
 /* all bottom items */
-.copyright {
+.bottom_tags {
     text-align: center;
     display: flex;
     align-items: flex-start;
